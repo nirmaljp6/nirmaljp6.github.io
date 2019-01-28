@@ -2,8 +2,14 @@
 main:
   #- title: "Quick-Start Guide"
    # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Research"
+    url: /research/
   - title: "Publications"
     url: /publications/
+  - title: "CV"
+    url: /cv/
+  - title: "Contact"
+    url: /contact/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
