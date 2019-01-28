@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Nirmal's Home"
 title_separator          : "-"
 name                     : "Nirmal"
-description              : "An amazing website."
+description              : "Personal website of Nirmal Nair."
 url                      : https://nirmaljp6.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
