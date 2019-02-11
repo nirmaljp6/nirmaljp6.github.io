@@ -54,11 +54,6 @@ In the figure displayed below, we have demonstrated the computational efficiency
 
 
 
-# Computational fluid dynamics
-## Passive flow control using vortex generators
-I studied passive flow control using vortex generators to delay shock induced flow separation on Onera M6 wing in transonic flow regime using Ansys Fluent.
-
-
 
 
 

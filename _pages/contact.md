@@ -12,12 +12,12 @@ header:
 ### Address
 
 
-<var>324 Talbot Laboratory<var><br /> <var>104S Wright St<var><br /> <var>Urbana, IL-61801<var>
+324 Talbot Laboratory<br /> 104S Wright St<br />Urbana, IL-61801
 
 
 
 
-<var>nirmaljp6@gmail.com</var><br /> <var>+1-217-305-1356<var>
+nirmaljp6@gmail.com<br /> +1-217-305-1356
 
 
 
