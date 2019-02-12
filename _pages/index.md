@@ -12,6 +12,6 @@ excerpt: "I'm a Ph.D. candidate in Aerospace Engineering at the University of Il
 
 
 {% include feature_row id="intro" type="center" %}
-I am a passionate researcher with broad interests in engineering and computational science. Before beginning my Ph.D., I had graduated with B.Tech. in Mechanical Engineering from Indian Institute of Technology (IIT) Gandhinagar and M.S. in Aerospace Engineering from UIUC. My current interests lie in the intersection of computational fluid dynamics, aerodynamics, high-performance computing and data-driven reduced order modeling to develop novel models for enabling faster simulation of fluid flows eventually leading to faster aerodynamic design, optimization and control.
+I am a passionate researcher with broad interests in engineering and computational science. Before beginning my Ph.D., I graduated with B.Tech. in Mechanical Engineering from Indian Institute of Technology (IIT) Gandhinagar and M.S. in Aerospace Engineering from UIUC. My current interests lie in the intersection of computational fluid dynamics, aerodynamics, high-performance computing and data-driven reduced order modeling to develop novel models for enabling faster simulation of fluid flows eventually leading to faster aerodynamic design, optimization and control.
 {: style="text-align: justify;"}
 {% include feature_row id="intro" type="center" %}

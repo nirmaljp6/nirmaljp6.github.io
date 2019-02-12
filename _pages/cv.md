@@ -18,7 +18,7 @@ Concentration in Computational Science and Engineering
 **B.Tech.**, Mechanical Engineering, Indian Institute of Technology (IIT) Gandhinagar, 2016 
 
 ## Research Experience
-**Graduate Research Assistant**  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sept 2018 - present <br />
+**Graduate Research Assistant**;  &nbsp; Sept 2018 - present <br />
 University of Illinois at Urbana-Champaign, Urbana, IL
 <ul style="margin-top:-30px;">
 <li> Data-driven state estimation targetted towards flow-field estimation around an airfoil/wing. </li>
@@ -27,19 +27,19 @@ University of Illinois at Urbana-Champaign, Urbana, IL
 <li> High-performance computing for modeling fluid-structure interaction. </li>
 </ul>
 
-**Graduate Research Assistant**  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Aug 2016 - Sept 2018 <br />
+**Graduate Research Assistant**;  &nbsp; Aug 2016 - Sept 2018 <br />
 University of Illinois at Urbana-Champaign, Urbana, IL
 <ul style="margin-top:-30px;">
 <li> Data-driven model order reduction methods in computational science. </li>
 </ul>
 
-**Summer Undergraduate Research Fellow**  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; May - July 2015 <br />
+**Summer Undergraduate Research Fellow**;  &nbsp; May - July 2015 <br />
 California Institute of Technology, Pasadena, CA
 <ul style="margin-top:-30px;">
 <li> Design and fabrication of a thermoelectric generator to power wireless sensors in aircrafts. </li>
 </ul>
 
-**Summer Research Internship Program**  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; May 2014 - April 2015 <br />
+**Summer Research Internship Program**;  &nbsp; May 2014 - April 2015 <br />
 Indian Institute of Technology Gandhinagar, India
 <ul style="margin-top:-30px;">
 <li> Stability analysis of axisymmetrix thermal boundary layer in response to heating and cooling. </li>
