@@ -23,7 +23,7 @@
 \begin{resume}  
 \section{\large Contact Information}
 \noindent
-\makebox[3.5in][l]{University of Illinois Urbana-Champaign} \\
+\makebox[3.5in][l]{University of Illinois at Urbana-Champaign} \\
 \makebox[3.5in][l]{Department of Aerospace Engineering} website: nirmaljp6.com\\
 \makebox[3.5in][l]{Talbot Laboratory} phone: 217-305-1356           \\
 \makebox[3.5in][l]{Urbana, Illinois 61801} email: njn2@illinois.edu
@@ -39,65 +39,101 @@ Concentration: Computational Science and Engineering
 {\bf Indian Institute of Technology Gandhinagar}, Gujarat, India \hfill 2012 -- 2016\\
 B.Tech. (\textit{Honors}), Mechanical Engineering \hfill GPA: 9.24/10.0
 
+\section{\large Research Interests}
+\begin{table}[h]
+\begin{tabular*}{\textwidth}[t]{ll}
+\textbullet \  Computational fluid dynamics & \textbullet \  Deep learning \\
+\textbullet \  Fluid-structure interaction & \textbullet \  Reduced-order modeling \\
+\textbullet \  High performance computing & \textbullet \  Machine learning
+\end{tabular*}
+\end{table}
+
 \section{\large Research Experience}
-{\bf Graduate Research Assistant} \hfill August 2016 -- present\\
-Ph.D. thesis adviser: Prof. Andres Goza, UIUC \hfill September 2018 -- present\\
+{\bf Graduate Research Assistant} \hfill September 2018 -- present\\
+Ph.D. thesis adviser: Prof. Andres Goza, UIUC, Champaign, IL \\
 %
-Data-driven flow field estimation around an airfoil/wing using passively deployed flaps.
+Integrating sensor data into reduced-order models (ROMs) using deep learning.
 \begin{itemize}
-\item Passively deployed flaps will be modeled as full-flow field estimating sensors by mapping the motion of flaps to the known flow field data by solving an off-line optimization problem.
-\vspace{-0.15cm}
-\item Currently, flow field data for different flap-parameters and flow conditions are being obtained from an in-house parallel CFD solver built using MPI and PETSC. 
+\item Developing a state estimation methodology where real-time sensor data is mapped to the ROM state space using deep neural networks in Pytorch.
+%\vspace{-0.15cm}
 \end{itemize}
 
-M.S. thesis adviser: Prof. Maciej Balajewicz, UIUC \hfill August 2016 -- August 2018\\
-Data-driven reduced-order modeling of nonlinear fluid flows.
+Data-driven flow field estimation around an airfoil using passively deployed flaps.
+\begin{itemize}
+\item Passively deployed flaps will be modeled as flow-field estimating sensors by mapping the dynamics of the flaps to the flow-field using snapshot data.
+%\vspace{-0.15cm}
+\end{itemize}
+
+Scalable solver for simulating strongly coupled fluid-interaction flows.
+\begin{itemize}
+\item Developing a parallel CFD solver for simulating fluid-structure interaction problems consisting of rigid and torsionally hinged bodies using MPI and PETSC.
+\end{itemize}
+
+{\bf CSRI Summer Intern} \hfill June 2019 -- August 2019\\
+Adviser: Dr. Kevin Carlberg, Sandia National Laboratories, Livermore, CA \\
+%
+Guaranteeing convergence of ROMs on nonlinear manifold using transfer learning.
+\begin{itemize}
+\item Developed an adaptive manifold refinement strategy to enable convergence of ROMs on manifolds built using deep convolutional autoencoders on Tensorflow.
+%\vspace{-0.15cm}
+\end{itemize}
+
+{\bf Graduate Research Assistant} \hfill August 2016 -- August 2018\\
+M.S. thesis adviser: Prof. Maciej Balajewicz, UIUC, Champaign, IL \\
+Data-driven reduced-order modeling of advection-dominated fluid flows.
 \begin{itemize}
 \item Developed a novel data-driven model order reduction method for parametric, steady-state fluid flows containing evolving shocks.
-\vspace{-0.15cm}
-\item Demonstrated the computational efficiency of the proposed approach on several CFD problems. 
+%\vspace{-0.15cm}
+%\item Demonstrated the computational efficiency of the proposed approach on several CFD problems. 
 \end{itemize}
 
 
 {\bf Summer Undergraduate Research Fellow} \hfill May -- July 2015\\
-Adviser: Prof. Austin Minnich, California Institute of Technology 
+Adviser: Prof. Austin Minnich, California Institute of Technology, Pasadena, CA
 \begin{itemize}
 \item Designed and fabricated a prototype consisting of thermoelectric generators to
 power wireless temperature sensors in aircraft.
 \end{itemize}
 
 {\bf Summer Research Internship Program} \hfill   May 2014 -- April 2015\\
-Adviser: Prof. Vinod Narayanan, IIT Gandhinagar
+Adviser: Prof. Vinod Narayanan, IIT Gandhinagar, India
 \begin{itemize}
 \item Studied the stability characteristics of axisymmetric thermal boundary layer of various fluids in response to heating and cooling.
 \end{itemize}
 
-\section{\large Skills}		 
-Programming: Matlab, Fortran, C, Python.\\
-High performance computing: PETSC, MPI, OpenMP.\\
-CFD and CAD: Ansys Fluent, Star CCM+, Autodesk Inventor.\\ Miscellaneous: Latex, Git, Simulink.
+%\newpage
 
-\newpage
+\section{\large Skills}		 
+Programming: Python, Matlab, Fortran, C.\\
+Machine Learning: Pytorch, Tensorflow.\\
+High Performance Computing: PETSC, MPI, OpenMP.\\
+CFD and CAD: Ansys Fluent, Star CCM+, Autodesk Inventor.\\ 
+Miscellaneous: Latex, Git, Simulink.
 
 \section{\large Publications}
  \begin{itemize}
- \item[1.] N.J. Nair and M. Balajewicz. Transported snapshot model order reduction approach for parametric, steady-state fluid flows containing parameter dependent shocks. \textit{International Journal for Numerical Methods in Engineering}, 2018.
+ \item[1.] Nair NJ, Balajewicz M. Transported snapshot model order reduction approach for parametric, steady-state fluid flows containing parameter-dependent shocks. \textit{International Journal for Numerical Methods in Engineering}. 2019;117:1234–1262.
  
-  \item[2.] N. Jayaprasad, et al. Exploring viscous damping in undergraduate Physics laboratory using electromagnetically coupled oscillators. \textit{arXiv preprint arXiv:1311.7489}, 2013.
+  \item[2.] N. Jayaprasad, et al. Exploring viscous damping in undergraduate Physics laboratory using electromagnetically coupled oscillators. \textit{Preprint arXiv:1311.7489}, 2013.
  \end{itemize}
  
- \section{\large Conference Proceedings}
- \begin{itemize}
+\section{\large Conference Talks \\ \small * indicates travel support}
+
+\textbf{Invited Talks}
+
+\begin{itemize} 
+ \item[1. ] *N.J. Nair and M. Balajewicz. Transported snapshot model order reduction approach for parametric, steady-state fluid flows containing parameter dependent shocks. \textit{SIAM Conference on Computational Science and Engineering}, 2019.
+\end{itemize}
+
+\textbf{Contributed Talks} 
+\begin{itemize}
+ \item[2.] *N.J. Nair and M. Balajewicz. Physics based interpolation for steady parametric partial differential equations. \textit{APS, Division of Fluid Dynamics}, 2017.
  
- \item[1. ] N.J. Nair and M. Balajewicz. Transported snapshot model order reduction approach for parametric, steady-state fluid flows containing parameter dependent shocks. \textit{SIAM Conference on Computational Science and Engineering}, 2019.\\
+ \item[3.] *N.J. Nair and U. Shah. A simple computational tool for studying acoustic waves in nonlinear medium. \textit{ASME, International Design Engineering Technical Conferences}, 2017.
  
- \item[2.] N.J. Nair and M. Balajewicz. Physics based interpolation for steady parametric partial differential equations. \textit{Bulletin of the American Physical Society, Division of Fluid Dynamics}, 2017.\\
- 
- \item[3.] N.J. Nair and U. Shah. A simple computational tool for studying acoustic waves in nonlinear medium. \textit{ASME 2017 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. American Society of Mechanical Engineers}, 2017.\\
- 
- \item[4.] N. Jayaprasad and V. Narayanan. Effect of viscosity stratification on stability of axisymmetric boundary layer. \textit{Bulletin of the American Physical Society, Division of Fluid Dynamics}, 2015.
+ \item[4.] N. Jayaprasad and V. Narayanan. Effect of viscosity stratification on stability of axisymmetric boundary layer. \textit{APS, Division of Fluid Dynamics}, 2015.
   
- \end{itemize}
+\end{itemize}
 		 
 %\section{\large Course Projects}
 %{\bf Nonlinear lifting line theory on biplanes for low speed applications}\\
@@ -135,7 +171,7 @@ Winner of Ricoh Printer Design Challenge, IIT Gandhinagar \hfill 2014
 
 {\bf MPI and OpenMP based parallel 2D CFD solver}, UIUC \hfill Fall 2018
 \begin{itemize}
-\item Developed a direct parallel solver based on finite difference methods to solve the 2D advection-diffusion equation using MPI and OpenMP.
+\item Developed a parallel solver based on finite difference methods to solve the 2D advection-diffusion equation using MPI and OpenMP.
 \end{itemize}
 
 {\bf Passive flow control using vortex generators}, UIUC \hfill Fall 2016
@@ -143,19 +179,26 @@ Winner of Ricoh Printer Design Challenge, IIT Gandhinagar \hfill 2014
 \item Studied passive flow control using vortex generators to delay shock induced flow separation on an Onera M6 wing in transonic flow regime using Ansys Fluent.
 \end{itemize}
 
-\section{\large Academic Services and Afflications}		 
+\section{\large Academic Services and Affiliations}		 
 Reviewer, Journal of Computational Physics \hfill 2018--\vspace{0.1cm}\\
 Reviewer, International Journal for Numerical Methods in Engineering \hfill 2018--\vspace{0.1cm}\\
-Student Member, American Physical Society \hfill 2017 -- 2018\vspace{0.1cm}
+Student Member, Society of Industrial and Applied Mathematicians (SIAM) \hfill 2018 --\vspace{0.1cm}\\
+Student Member, American Physical Society (APS) \hfill 2017 --
 		 
 \section{\large Teaching}
+{\bf Teaching Assistant}, UIUC \hfill September -- December 2019 \\
+AE 433: Aerospace Propulsion
+%Led revision sessions for sophomore students to clarify doubts and revise difficult concepts under the Peer Assisted Learning (PAL) program.
+\vspace{-0.1cm}
+
 {\bf Tutor}, IIT Gandhinagar \hfill January -- March 2016 \\
-ES 212: Momentum, Heat and Mass Transfer\\
-Led revision sessions for sophomore students to clarify doubts and revise difficult concepts under the Peer Assisted Learning (PAL) program.
+ES 212: Momentum, Heat and Mass Transfer
+%Led revision sessions for sophomore students to clarify doubts and revise difficult concepts under the Peer Assisted Learning (PAL) program.
+\vspace{-0.1cm}
 
 {\bf Teaching Assistant}, IIT Gandhinagar \hfill August -- November 2013 \\
-ES 101: Engineering Graphics\\
-Designed and led lab sessions on using Autodesk Inventor and graded the engineering drawing lab assignments for freshman students.
+ES 101: Engineering Graphics
+%Designed and led lab sessions on using Autodesk Inventor and graded the engineering drawing lab assignments for freshman students.
 
 %\section{\large Volunteering Experience}
 %\begin{itemize}

@@ -1,0 +1,12 @@
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/step2.png
+  
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/vortex1.jpg
+  caption: "Photo credit: [**ShopiFlyers**](https://twitter.com/ShopiFlyers/status/1013415498317484032)"
+  
+excerpt: "I'm a Ph.D. candidate in Aerospace Engineering at the University of Illinois at Urbana-Champaign (UIUC). My research interests include computational fluid dynamics, reduced order modeling and high performance computing."

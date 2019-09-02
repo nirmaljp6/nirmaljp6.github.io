@@ -1,0 +1,4 @@
+bundle exec jekyll serve
+git add .
+git commit -m "Updated website"
+git -u push origin master

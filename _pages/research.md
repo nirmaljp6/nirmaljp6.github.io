@@ -1,55 +1,57 @@
 ---
-layout: single
-title: "Research Interests"
+layout: splash
+title: "Research"
 permalink: /research/
 classes: wide
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/step2.png
 ---
 
-My research interests lie in the intersection of computational fluid dynamics and data-driven reduced order modeling particularly applied to problems in aerodynamics. 
-
-# Data-driven methods + Computational fluid dynamics
-Computational Fluid Dynamics (CFD) has become an indispensable tool for many engineering applications. Unfortunately, high-fidelity CFD simulations are often so computationally prohibitive that they cannot be used as often as needed or used only in special circumstances rather than routinely. Model order reduction (MOR) is a family of techniques for reducing the computational complexity of such large-scale computational models. This is where the core of my research lies!
+<br/>
+# Research
+[//]: <> (Computational Fluid Dynamics (CFD) has become an indispensable tool for many engineering applications. Unfortunately, high-fidelity CFD simulations are often so computationally prohibitive that they cannot be used as often as needed or used only in special circumstances rather than routinely. Model order reduction (MOR) is a family of techniques for reducing the computational complexity of such large-scale computational models. This is where the core of my research lies!)
 {: style="text-align: justify;"}
 
-## Data-driven flow field estimation
-In many applications such as flow control or autonomous decision making in unsteady aerodynamics, it is important to identify the flow-field around a wing using only limited real-time information from sensors. Estimation of flow-field will enable us to identify critical phenomena such as the onset of flow separation and/or stall.
-{: style="text-align: justify;"}
-
-As part of my Ph.D. thesis, I will be modeling passively deployed torsionally hinged flaps as flow-field estimating sensors as shown below. This will be achieved by mapping the motion of the flaps to the known flow-field data obtained at various other flow configurations by solving an off-line optimization problem.
+## 1. Integrating real-time sensor data into reduced order models (ROMs) using deep learning
+In this work, we are developing an efficient state estimation methodology for dynamical systems where real-time sensor data is mapped to the ROM state space using deep neural networks. This framework will be highly useful for numerous real-time dynamical systems, where an approximate instantaneous state estimated from limited sensor data can be used to quickly predict the future behavior of the system using a ROM. Applications include self-driving cars, flow control, adaptive and morphing structures, etc.
 {: style="text-align: justify;"}
 <center><p float="center">
-  <img src="/assets/images/airfoil.PNG" width="80%" />
+  <img src="/assets/images/cse5.PNG" width="60%" />
 </p></center>
 
-### High performance computing
-Currently, I am developing an in-house parallel CFD solver built using MPI and PETSC to collect flow-field data for different flap-parameters and flow conditions. To gain expertise on parallel programming using PETSC, I had recently built a 2D advection-diffusion solver using Krylov subspace methods and fast Fourier transforms simulating a moving Gaussian as shown below.
+## 2. Data-driven flow field estimation in unsteady aerodynamics
+Instantaneous estimation of flow-field using limited sensor data will enable us to identify critical flow phenomena such as the onset of flow separation and/or stall, which will be crucial for applications such as flow control or autonomous decision making in unsteady aerodynamics. In this work, we propose to develop a novel flow-field estimation framework where we will model passively deployed torsionally hinged flaps as flow-field estimating sensors as shown below. This will be achieved by learning the mapping between the dynamics of the flaps and the flow-field using snapshot data.
 {: style="text-align: justify;"}
 <center><p float="center">
-  <img src="/assets/images/1.png" width="40%" />
-  <img src="/assets/images/2.png" width="40%" /> 
+  <img src="/assets/images/airfoil.PNG" width="60%" />
 </p></center>
 
-## Data-driven reduced order modeling of fluid flows
+## 3. High performance computing
+We are developing a parallel CFD solver for simulating fluid-structure interaction problems consisting of rigid and torsionally hinged bodies using MPI and PETSC. The algorithm consists of a fractional step method where the fluid equations are solved using fast Fourier transforms while the structural equations are solved using bi-conjugate gradient method. The figure below displays the vorticity contours of the flow over two flat plates computed on 32 cores: one plate is horizontally fixed while the second plate, which is torsionally hinged, is oscillating about the trailing edge of the fixed plate.
+{: style="text-align: justify;"}
+<center><p float="center">
+  <img src="/assets/images/flow.gif" width="50%" />
+</p></center>
+
+## 4. Adaptive manifold-refinement for ROMs on nonlinear manifold using transfer learning
+We are developing an adaptive manifold refinement strategy to guarantee convergence of ROMs on manifolds built using deep convolutional autoencoders. The refinement methodology includes splitting of the latent space and retraining of few selected weights of the decoder of the autoencoder.
+{: style="text-align: justify;"}
+
+## 5. Data-driven reduced order modeling of fluid flows
 Traditional MOR approaches cannot be expected to efficiently provide good approximations in the case where the solutions are dominated by strong shocks or discontinuities whose spatial orientations and positions
-are strongly parameter dependent. To tackle this problem, I have developed a novel "[Transported snapshot model order reduction approach for parametric, steady-state fluid flows containing parameter
+are strongly parameter dependent. To tackle this problem, we have developed a novel "[Transported snapshot model order reduction approach for parametric, steady-state fluid flows containing parameter
 dependent shocks](https://onlinelibrary.wiley.com/doi/full/10.1002/nme.5998)".
 {: style="text-align: justify;"}
 
-We have demonstrated the accuracy of our approach on many representative flow problems such as the one shown below. Here we accurately predict the solution of a 2D flow over a forward facing step where mutiple shock interactions and reflections can be clearly observed.
+We have demonstrated the accuracy of our approach on many representative flow problems as shown below. Here we accurately predict the solution of a 2D flow over a forward facing step where mutiple shock interactions and reflections can be clearly observed.
 {: style="text-align: justify;"}
 <center><p float="center">
-  <img src="/assets/images/step.png" width="90%" />
+  <img src="/assets/images/step.png" width="60%" />
 </p></center>
 
 
 In the figure displayed below, we have demonstrated the computational efficiency on a multi-parametric combustion problem. For this problem we obtain a computational speedup of 2 orders of magnitude compared to the high-dimensional model.
 {: style="text-align: justify;"}
 <center><p float="center">
-  <img src="/assets/images/combustion.png" width="70%" />
+  <img src="/assets/images/combustion.png" width="40%" />
 </p></center>
 
 
