@@ -22,12 +22,14 @@ classes: wide
 
 ### Invited
 
-  1.   {: style="text-align: justify;"}**N.J. Nair** and M. Balajewicz. Transported snapshot model order reduction approach for parametric, steady-state fluid flows containing parameter dependent shocks. _Invited talk in a mini-symposium at SIAM      Conference on Computational Science and Engineering_, 2019. [[link]](http://meetings.siam.org/sess/dsp_talk.cfm?p=95087) *
+  1.   {: style="text-align: justify;"}**N.J. Nair** and M. Balajewicz. Transported snapshot model order reduction approach for parametric, steady-state fluid flows containing parameter dependent shocks. _Invited talk in a mini-symposium at SIAM      Conference on Computational Science and Engineering_, 2019. [[link]](https://meetings.aps.org/Meeting/DFD19/Session/H10.8)
   
 ### Contributed
 
-  2.   {: style="text-align: justify;"}**N.J. Nair** and M. Balajewicz. Physics based interpolation for steady parametric partial differential equations. _Bulletin of the American Physical Society, Division of Fluid Dynamics_, 2017. [[link]](http://meetings.aps.org/Meeting/DFD17/Session/G1.1) *
+  1.   {: style="text-align: justify;"}**N.J. Nair** and A. Goza. Integrating sensor data into reduced-order models with deep learning. _Bulletin of the American Physical Society, Division of Fluid Dynamics_, 2019. [[link]](https://meetings.aps.org/Meeting/DFD19/Session/H10.8)
 
-  3.   {: style="text-align: justify;"}**N.J. Nair** and U. Shah. A simple computational tool for studying acoustic waves in nonlinear medium. _ASME 2017 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. American Society of Mechanical Engineers_, 2017. [[link]](https://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleID=2662373) *
+  2.   {: style="text-align: justify;"}**N.J. Nair** and M. Balajewicz. Physics based interpolation for steady parametric partial differential equations. _Bulletin of the American Physical Society, Division of Fluid Dynamics_, 2017. [[link]](http://meetings.aps.org/Meeting/DFD17/Session/G1.1)
+
+  3.   {: style="text-align: justify;"}**N.J. Nair** and U. Shah. A simple computational tool for studying acoustic waves in nonlinear medium. _ASME 2017 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. American Society of Mechanical Engineers_, 2017. [[link]](https://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleID=2662373)
 
   4.   {: style="text-align: justify;"}**N. Jayaprasad** and V. Narayanan. Effect of viscosity stratification on stability of axisymmetric boundary layer. _Bulletin of the American Physical Society, Division of Fluid Dynamics_, 2015. [[link]](http://meetings.aps.org/Meeting/DFD15/Event/253531)
