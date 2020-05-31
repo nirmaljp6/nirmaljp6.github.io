@@ -7,9 +7,9 @@ classes: wide
 
 ## Publications
 
-  1.   {: style="text-align: justify;"}**N.J. Nair** and A. Goza. Leveraging reduced-order models for state estimation using deep learning. _arXiv:1912.10553_, 2019. [[link]](https://arxiv.org/pdf/1912.10553)
+  1.   {: style="text-align: justify;"}**N.J. Nair** and A. Goza. Leveraging reduced-order models for state estimation using deep learning. _Journal of Fluid Mechanics_, 2020. [[arxiv link]](https://arxiv.org/pdf/1912.10553)
     
-  2.   {: style="text-align: justify;"}**N.J. Nair** and M. Balajewicz. Transported snapshot model order reduction approach for parametric, steady state fluid flows containing parameter dependent shocks. _International Journal for Numerical Methods in Engineering_, 2019. [[link]](https://onlinelibrary.wiley.com/doi/full/10.1002/nme.5998) [[arxiv link]](https://arxiv.org/pdf/1712.09144.pdf)
+  2.   {: style="text-align: justify;"}**N.J. Nair** and M. Balajewicz. Transported snapshot model order reduction approach for parametric, steady state fluid flows containing parameter dependent shocks. _International Journal for Numerical Methods in Engineering_, 117.12 (2019): 1234-1262. [[link]](https://onlinelibrary.wiley.com/doi/full/10.1002/nme.5998) [[arxiv link]](https://arxiv.org/pdf/1712.09144.pdf)
 
 
   3.   {: style="text-align: justify;"}**N.J. Nair**. Transported snapshot model order reduction approach for parametric, steady state fluid flows containing parameter dependent shocks. _M.S. Thesis, University of Illinois at Urbana-Champaign_, 2018. [[link]](https://www.ideals.illinois.edu/bitstream/handle/2142/101093/NAIR-THESIS-2018.pdf?sequence=1&isAllowed=y)
@@ -19,7 +19,6 @@ classes: wide
 
 
 ## Conference Talks 
-(* indicates travel support)
 
 ### Invited
 

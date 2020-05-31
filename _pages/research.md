@@ -11,7 +11,7 @@ classes: wide
 {: style="text-align: justify;"}
 
 ## 1. Integrating real-time sensor data into reduced order models (ROMs) using deep learning
-In this work, we are developing an efficient state estimation methodology for dynamical systems where real-time sensor data is mapped to the ROM state space using deep neural networks. This framework will be highly useful for numerous real-time dynamical systems, where an approximate instantaneous state estimated from limited sensor data can be used to quickly predict the future behavior of the system using a ROM. Applications include self-driving cars, flow control, adaptive and morphing structures, etc.
+In this work, we have developed an efficient state estimation methodology for dynamical systems where real-time sensor data is mapped to a reduced state space using deep neural networks. This framework will be highly useful for numerous real-time dynamical systems, where an approximate instantaneous state estimated from limited sensor data can be used to quickly predict the future behavior of the system using a ROM. Applications include flow control, adaptive and morphing structures, etc. More details about this work can be obtained[[here]](https://arxiv.org/pdf/1912.10553)
 {: style="text-align: justify;"}
 <center><p float="center">
   <img src="/assets/images/cse5.PNG" width="60%" />
@@ -25,7 +25,7 @@ Instantaneous estimation of flow-field using limited sensor data will enable us 
 </p></center>
 
 ## 3. High performance computing
-We are developing a parallel CFD solver for simulating fluid-structure interaction problems consisting of rigid and torsionally hinged bodies using MPI and PETSC. The algorithm consists of a fractional step method where the fluid equations are solved using fast Fourier transforms while the structural equations are solved using bi-conjugate gradient method. The figure below displays the vorticity contours of the flow over two flat plates computed on 32 cores: one plate is horizontally fixed while the second plate, which is torsionally hinged, is oscillating about the trailing edge of the fixed plate.
+We are developing a parallel CFD solver for simulating fluid-structure interaction problems using MPI and PETSC. The algorithm consists of a fractional step method where the fluid equations are solved using fast Fourier transforms while the structural equations are solved using GMRES. The figure below displays the vorticity contours of the flow over two flat plates computed on 32 cores: one plate is horizontally fixed while the second plate, which is torsionally hinged, is oscillating about the trailing edge of the fixed plate.
 {: style="text-align: justify;"}
 <center><p float="center">
   <img src="/assets/images/flow.gif" width="50%" />
@@ -37,19 +37,15 @@ We are developing an adaptive manifold refinement strategy to guarantee converge
 
 ## 5. Data-driven reduced order modeling of fluid flows
 Traditional MOR approaches cannot be expected to efficiently provide good approximations in the case where the solutions are dominated by strong shocks or discontinuities whose spatial orientations and positions
-are strongly parameter dependent. To tackle this problem, we have developed a novel "[Transported snapshot model order reduction approach for parametric, steady-state fluid flows containing parameter
-dependent shocks](https://onlinelibrary.wiley.com/doi/full/10.1002/nme.5998)".
+are strongly parameter dependent. To tackle this problem, we have developed a novel "[transported snapshot model order reduction (TSMOR) approach](https://onlinelibrary.wiley.com/doi/full/10.1002/nme.5998)".
 {: style="text-align: justify;"}
 
-We have demonstrated the accuracy of our approach on many representative flow problems as shown below. Here we accurately predict the solution of a 2D flow over a forward facing step where mutiple shock interactions and reflections can be clearly observed.
+We have demonstrated the accuracy of our approach and computational efficient on many representative flow problems such as a 2D flow over a forward facing step resulting in multiple shock interactions and reflections and a multi-parametric combustion problem.
 {: style="text-align: justify;"}
 <center><p float="center">
   <img src="/assets/images/step.png" width="60%" />
 </p></center>
 
-
-In the figure displayed below, we have demonstrated the computational efficiency on a multi-parametric combustion problem. For this problem we obtain a computational speedup of 2 orders of magnitude compared to the high-dimensional model.
-{: style="text-align: justify;"}
 <center><p float="center">
   <img src="/assets/images/combustion.png" width="40%" />
 </p></center>

@@ -135,7 +135,7 @@ author:
       # url: "https://instagram.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/nirmaljp6"
+      url: "https://github.com/nirmaljp6"
 
 # Site Footer
 footer:

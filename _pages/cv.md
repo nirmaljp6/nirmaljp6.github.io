@@ -32,6 +32,7 @@ Indian Institute of Technology Gandhinagar, India
 
 
 ## Honors and Awards
+* AE Outstanding Graduate Student Fellowship, UIUC, 2020
 * Conference Travel Grant, APS DFD, 2019
 * SIAM Student Travel Award, SIAM CSE, 2019
 * Conference Travel Award for Graduate Students, UIUC, 2017
