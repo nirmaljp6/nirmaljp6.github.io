@@ -5,7 +5,7 @@ permalink: /cv/
 classes: wide
 ---
 
-[Download PDF Version](/assets/images/CV_Nirmal.pdf){: .btn .btn--info} (updated 14/01/2020)
+[Download PDF Version](/assets/images/CV_Nirmal.pdf){: .btn .btn--info} (updated 05/31/2020)
 {% include feature_row %}
 # Summary
 ## Education
