@@ -7,7 +7,7 @@ classes: wide
 
 ## Publications
 
-  1.   {: style="text-align: justify;"}**N.J. Nair** and A. Goza. Leveraging reduced-order models for state estimation using deep learning. _Journal of Fluid Mechanics_, 2020. [[arxiv link]](https://arxiv.org/pdf/1912.10553)
+  1.   {: style="text-align: justify;"}**N.J. Nair** and A. Goza. Leveraging reduced-order models for state estimation using deep learning. _Journal of Fluid Mechanics_, 897, 2020. [[link]](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/leveraging-reducedorder-models-for-state-estimation-using-deep-learning/FF16E164C1FEA5099BF45CE62A7B5101) [[arxiv link]](https://arxiv.org/pdf/1912.10553)
     
   2.   {: style="text-align: justify;"}**N.J. Nair** and M. Balajewicz. Transported snapshot model order reduction approach for parametric, steady state fluid flows containing parameter dependent shocks. _International Journal for Numerical Methods in Engineering_, 117.12 (2019): 1234-1262. [[link]](https://onlinelibrary.wiley.com/doi/full/10.1002/nme.5998) [[arxiv link]](https://arxiv.org/pdf/1712.09144.pdf)
 
