@@ -8,8 +8,8 @@ permalink: /contact/
 ### Address
 
 
-324 Talbot Laboratory<br /> 104 S Wright St<br />Urbana, IL-61801
+327 Talbot Laboratory<br /> 104 S Wright St<br />Urbana, IL-61801
 
-nirmaljp6@gmail.com<br /> +1-217-305-1356
+nirmaljp6[at]gmail.com<br /> +1-217-305-1356
 
 

@@ -4,8 +4,13 @@ title: "Codes"
 permalink: /codes/
 ---
 
+### Parallel immersed boundary code with (optional) efficient fluid-structure coupling
+based on [Nair and Goza, 2021](https://arxiv.org/pdf/2103.06415.pdf).
+<br />
+[Github](https://github-dev.cs.illinois.edu/NUFgroup/IB_parallel){: .btn .btn--info}
+
 ### Deep state estimation (DSE)
-based on [Nair and Goza, 2020](https://arxiv.org/pdf/1912.10553).
+based on [Nair and Goza, 2020](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/leveraging-reducedorder-models-for-state-estimation-using-deep-learning/FF16E164C1FEA5099BF45CE62A7B5101).
 <br />
 [Github](https://github.com/nirmaljp6/DSE){: .btn .btn--info}
 
