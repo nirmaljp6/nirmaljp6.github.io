@@ -23,12 +23,21 @@ We numerically investigated a model system in which a passively deployable, tors
 
 We are currently designing an active flow control counterpart of the above-mentioned passive flow control strategy for further augmenting the airfoil lift. Using reinforcement learning, we are developing a closed-loop feedback controller for actuating the hinge stiffness as shown in the figure below. The controller is constructed to maximize reward or aerodynamic lift under unsteady gust conditions. A neural network architecture is used to construct the controller/agent which takes the flow-state of the system as the input and outputs the instantaneous value of stiffness. PPO, a policy gradient optimization algorithm is used to train the agent. The results will be updated soon.
 
-## 2. Integrating real-time sensor data into reduced order models (ROMs) using deep learning
+## 1. Integrating real-time sensor data into reduced order models (ROMs) using deep learning
 In this work, we have developed an efficient state estimation methodology for dynamical systems where real-time sensor data is mapped to a reduced state space using deep neural networks. This framework will be highly useful for numerous real-time dynamical systems, where an approximate instantaneous state estimated from limited sensor data can be used to quickly predict the future behavior of the system using a ROM. Applications include flow control, adaptive and morphing structures, etc. More details about this work can be obtained[[here]](https://arxiv.org/pdf/1912.10553)
 {: style="text-align: justify;"}
 <center><p float="center">
   <img src="/assets/images/cse5.PNG" width="60%" />
 </p></center>
+
+<!---
+## 2. Data-driven flow field estimation in unsteady aerodynamics
+Instantaneous estimation of flow-field using limited sensor data will enable us to identify critical flow phenomena such as the onset of flow separation and/or stall, which will be crucial for applications such as flow control or autonomous decision making in unsteady aerodynamics. In this work, we propose to develop a novel flow-field estimation framework where we will model passively deployed torsionally hinged flaps as flow-field estimating sensors as shown below. This will be achieved by learning the mapping between the dynamics of the flaps and the flow-field using snapshot data.
+{: style="text-align: justify;"}
+<center><p float="center">
+  <img src="/assets/images/airfoil.PNG" width="60%" />
+</p></center>
+-->
 
 ## 3. High performance computing
 We are developing a parallel CFD solver for simulating fluid-structure interaction problems using MPI and PETSC. The algorithm consists of a fractional step method where the fluid equations are solved using fast Fourier transforms while the structural equations are solved using GMRES. The figure below displays the vorticity contours of the flow over two flat plates computed on 32 cores: one plate is horizontally fixed while the second plate, which is torsionally hinged, is oscillating about the trailing edge of the fixed plate.
