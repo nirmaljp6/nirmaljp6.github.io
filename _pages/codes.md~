@@ -4,7 +4,7 @@ title: "Codes"
 permalink: /codes/
 ---
 
-### Parallel immersed boundary code with added capability of efficient fluid-structure coupling
+### Parallel immersed boundary code with (optional) efficient fluid-structure coupling
 based on [Nair and Goza, 2021](https://arxiv.org/pdf/2103.06415.pdf).
 <br />
 [Github](https://github-dev.cs.illinois.edu/NUFgroup/IB_parallel){: .btn .btn--info}

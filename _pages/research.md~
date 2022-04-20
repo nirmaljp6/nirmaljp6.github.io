@@ -9,6 +9,7 @@ classes: wide
 # Research
 [//]: <> (Computational Fluid Dynamics (CFD) has become an indispensable tool for many engineering applications. Unfortunately, high-fidelity CFD simulations are often so computationally prohibitive that they cannot be used as often as needed or used only in special circumstances rather than routinely. Model order reduction (MOR) is a family of techniques for reducing the computational complexity of such large-scale computational models. This is where the core of my research lies!)
 {: style="text-align: justify;"}
+[//]: <>(**Keywords**: computational fluid dynamics; deep learning; reinforcement learning; high-performance computing; reduced-order modeling)
 
 ## 1. Bio-inspired flow control using computational fluid dynamics and machine learning
 Flow control is a process of manipulating the flow to achieve desirable aerodynamic performance. The flow control technique in this work is inspired from covert feathers in birds---a set of self-actuating feathers located on the suction surface of the wings. During unsteady flow separation, these feathers protrude into the flow and provide lift enhancements, for reasons that are still not understood. We study the utility of covert feathers as a both passive and active flow control technique.
@@ -18,37 +19,52 @@ Flow control is a process of manipulating the flow to achieve desirable aerodyna
 
 We numerically investigated a model system in which a passively deployable, torsionally hinged flap is mounted on the suction surface of a stationary airfoil via high-fidelity nonlinear simulations as shown in the figure below. A parametric study performed by varying several flap parameters yielded lift improvements as high as 27% relative to the baseline flap-less case. A k-means clustering algorithm with carefully chosen inputs revealed two dominant flow behavioral regimes responsible for these lift improvements. Further details about this work can be found [[here]](https://arxiv.org/pdf/2203.00037.pdf) and [[here]](https://arc.aiaa.org/doi/abs/10.2514/6.2022-1968). We have also collaborated with [Prof. Aimy Wissa's group](https://mae.princeton.edu/people/faculty/wissa) to compare our numerical results with their wind-tunnel experiments.
 {: style="text-align: justify;"}
+<center><p float="center">
+  <img src="/assets/images/passivefc.png" width="30%" /> &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="/assets/images/maps.png" width="70%" />
+</p></center>
+
+<!---
+  <img src="/assets/images/passivefc.png" width="30%" /> &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="/assets/images/liftimp.png" width="40%" />
+-->
 
 ### Active flow control using reinforcement learning
 
 We are currently designing an active flow control counterpart of the above-mentioned passive flow control strategy for further augmenting the airfoil lift. Using reinforcement learning, we are developing a closed-loop feedback controller for actuating the hinge stiffness as shown in the figure below. The controller is constructed to maximize reward or aerodynamic lift under unsteady gust conditions. A neural network architecture is used to construct the controller/agent which takes the flow-state of the system as the input and outputs the instantaneous value of stiffness. PPO, a policy gradient optimization algorithm is used to train the agent. The results will be updated soon.
+{: style="text-align: justify;"}
+<center><p float="center">
+  <img src="/assets/images/rl.png" width="60%" /> &nbsp; &nbsp; &nbsp; &nbsp;
+</p></center>
 
-## 1. Integrating real-time sensor data into reduced order models (ROMs) using deep learning
+## 2. Integrating real-time sensor data into reduced order models (ROMs) using deep learning
 In this work, we have developed an efficient state estimation methodology for dynamical systems where real-time sensor data is mapped to a reduced state space using deep neural networks. This framework will be highly useful for numerous real-time dynamical systems, where an approximate instantaneous state estimated from limited sensor data can be used to quickly predict the future behavior of the system using a ROM. Applications include flow control, adaptive and morphing structures, etc. More details about this work can be obtained[[here]](https://arxiv.org/pdf/1912.10553)
 {: style="text-align: justify;"}
 <center><p float="center">
-  <img src="/assets/images/cse5.PNG" width="60%" />
+  <img src="/assets/images/se.png" width="60%" />
 </p></center>
-
-<!---
-## 2. Data-driven flow field estimation in unsteady aerodynamics
-Instantaneous estimation of flow-field using limited sensor data will enable us to identify critical flow phenomena such as the onset of flow separation and/or stall, which will be crucial for applications such as flow control or autonomous decision making in unsteady aerodynamics. In this work, we propose to develop a novel flow-field estimation framework where we will model passively deployed torsionally hinged flaps as flow-field estimating sensors as shown below. This will be achieved by learning the mapping between the dynamics of the flaps and the flow-field using snapshot data.
-{: style="text-align: justify;"}
-<center><p float="center">
-  <img src="/assets/images/airfoil.PNG" width="60%" />
-</p></center>
--->
 
 ## 3. High performance computing
+To be updated
+
+<!---
 We are developing a parallel CFD solver for simulating fluid-structure interaction problems using MPI and PETSC. The algorithm consists of a fractional step method where the fluid equations are solved using fast Fourier transforms while the structural equations are solved using GMRES. The figure below displays the vorticity contours of the flow over two flat plates computed on 32 cores: one plate is horizontally fixed while the second plate, which is torsionally hinged, is oscillating about the trailing edge of the fixed plate.
 {: style="text-align: justify;"}
+-->
+
 <center><p float="center">
-  <img src="/assets/images/flow.gif" width="50%" />
+  <img src="/assets/images/hpc.png" width="60%" /> &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="/assets/images/speedup.png" width="30%" />
 </p></center>
 
+
 ## 4. Adaptive manifold-refinement for ROMs on nonlinear manifold using transfer learning
+To be updated
+
+<!---
 We are developing an adaptive manifold refinement strategy to guarantee convergence of ROMs on manifolds built using deep convolutional autoencoders. The refinement methodology includes splitting of the latent space and retraining of few selected weights of the decoder of the autoencoder.
 {: style="text-align: justify;"}
+-->
 
 ## 5. Data-driven reduced order modeling of fluid flows
 Traditional MOR approaches cannot be expected to efficiently provide good approximations in the case where the solutions are dominated by strong shocks or discontinuities whose spatial orientations and positions
@@ -58,16 +74,33 @@ are strongly parameter dependent. To tackle this problem, we have developed a no
 We have demonstrated the accuracy of our approach and computational efficient on many representative flow problems such as a 2D flow over a forward facing step resulting in multiple shock interactions and reflections and a multi-parametric combustion problem.
 {: style="text-align: justify;"}
 <center><p float="center">
-  <img src="/assets/images/step.png" width="60%" />
+  <img src="/assets/images/step.png" width="50%" /> &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="/assets/images/combustion.png" width="33%" />
 </p></center>
 
+<br/>
+# Selected Course Projects
+
+## 1. Nonlinear modal decomposition using deep convolutional autoencoders
+To be updated
 <center><p float="center">
-  <img src="/assets/images/combustion.png" width="40%" />
+  <img src="/assets/images/cae.png" width="60%" />
 </p></center>
 
+## 2. Aeroacoustics of vortex shedding over a stalled airfoil
+To be updated
+<center><p float="center">
+  <img src="/assets/images/caevs.png" width="30%" /> &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="/assets/images/directivity.png" width="30%" />
+</p></center>
 
-
-
+## 3. Shock induced flow separation control using vortex generators
+To be updated
+<center><p float="center">
+  <img src="/assets/images/mesh.png" width="30%" /> &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="/assets/images/cpfluent.png" width="30%" /> &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="/assets/images/ansys.png" width="70%" />
+</p></center>
 
 
 
