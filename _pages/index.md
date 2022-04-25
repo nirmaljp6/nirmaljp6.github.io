@@ -24,7 +24,7 @@ Nirmal Nair is a Ph.D. candidate in Aerospace Engineering under [Prof. Andres Go
 * Reduced-order modeling
 
 ## Education
-* **Ph.D.**, Aerospace Engineering, University of Illinois at Urbana-Champaign, 2021
+* **Ph.D.**, Aerospace Engineering, University of Illinois at Urbana-Champaign, 2022
 <br />
 Concentration in Computational Science and Engineering
 
