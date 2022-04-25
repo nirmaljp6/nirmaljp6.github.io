@@ -37,8 +37,8 @@ We are currently designing an active flow control counterpart of the above-menti
   <img src="/assets/images/rl.png" width="60%" /> &nbsp; &nbsp; &nbsp; &nbsp;
 </p></center>
 
-## 2. Flow-field state estimation using deep learning
-In this work, we have developed an efficient state estimation methodology for dynamical systems where real-time sensor data is mapped to a reduced state space using deep neural networks. This framework will be highly useful for numerous real-time dynamical systems, where an approximate instantaneous state estimated from limited sensor data can be used to quickly predict the future behavior of the system using a ROM. Applications include flow control, adaptive and morphing structures, etc. More details about this work can be obtained[[here]](https://arxiv.org/pdf/1912.10553)
+## 2. State estimation using deep learning
+In this work, we have developed an efficient state estimation methodology for dynamical systems where real-time sensor data is used to estimate the full state of the system. In this method, first, a reduced order model (ROM) is constructed and associated reduced states are evaluated. Then, the sensor data is mapped to the reduced states using a deep neural network architecture consisting of fully connected layers. This method was successfully demonstrated in estimating the full flow-field around a flat plate at a large angle of attack, where the ROM was built using principal component analysis (PCA) a.k.a. proper orthogonal decomposition (POD). Further details about this work can be found [[here]](https://arxiv.org/pdf/1912.10553).
 {: style="text-align: justify;"}
 <center><p float="center">
   <img src="/assets/images/se.png" width="60%" />

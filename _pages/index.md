@@ -12,8 +12,8 @@ Nirmal Nair is a Ph.D. candidate in Aerospace Engineering under [Prof. Andres Go
 [\\]: <>(Currently he is developing algorithms and models for real-time state estimation using limited sensor data, high-performance computing for simulating and studying complex fluid-structure interaction in an immersed boundary framework and efficient reduced-order modeling of advection dominated flows.)
 
 
-<figure style="width: 600px" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/cse5.PNG" alt="">
+<figure style="width: 550px" class="align-right">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/se.png" alt="">
 </figure>
 ## Interests 
 * Computational fluid dynamics
