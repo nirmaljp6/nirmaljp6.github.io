@@ -85,7 +85,7 @@ We developed a nonlinear modal decomposition framework for accurately representi
 </p></center>
 
 ## 2. Aeroacoustics of vortex shedding about a stalled airfoil
-Ffowcs Williams-Hawkings (FWH) equation for predicting acoustic pressure was numerically solved using the Farassat Formulation 1A. This formulation has been used for predicting helicoptor rotor and propeller noise. First, the code was validated against analytical solutions consisting of stationary and moving monopoles. The validated code was then used to predict vortex shedding noise about a stalled airfoil.
+The Ffowcs Williams-Hawkings (FWH) equation for predicting acoustic pressure was numerically solved using the Farassat Formulation 1A. This formulation has been used for predicting helicoptor rotor and propeller noise. First, the code was validated against analytical solutions consisting of stationary and moving monopoles. The validated code was then used to predict vortex shedding noise about a stalled airfoil.
 {: style="text-align: justify;"}
 <center><p float="center">
   <img src="/assets/images/caevs.png" width="30%" /> &nbsp; &nbsp; &nbsp; &nbsp;
