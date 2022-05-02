@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2022.1.27)  28 APR 2022 21:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2022.1.27)  1 MAY 2022 21:14
 entering extended mode
 **./CV_Nirmal.tex
 (CV_Nirmal.tex
@@ -344,25 +344,26 @@ Underfull \hbox (badness 10000) in alignment at lines 44--48
 
 [1
 
-{/home/nirmal/.miktex/texmfs/data/pdftex/config/pdftex.map}] [2] [3] ) 
+{/home/nirmal/.miktex/texmfs/data/pdftex/config/pdftex.map}] [2] [3] [4] ) 
 Here is how much of TeX's memory you used:
- 8545 strings out of 479334
- 125258 string characters out of 2861381
+ 8546 strings out of 479334
+ 125264 string characters out of 2861381
  433821 words of memory out of 3000000
  25928 multiletter control sequences out of 15000+200000
  405785 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,9n,74p,308b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/n
-irmal/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></home
-/nirmal/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home
-/nirmal/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home
-/nirmal/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/
-nirmal/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/
-nirmal/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on CV_Nirmal.pdf (3 pages, 94577 bytes).
+ 71i,9n,74p,308b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </ho
+me/nirmal/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></
+home/nirmal/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
+home/nirmal/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+home/nirmal/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></h
+ome/nirmal/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></h
+ome/nirmal/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></ho
+me/nirmal/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on CV_Nirmal.pdf (4 pages, 105592 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
+ 52 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

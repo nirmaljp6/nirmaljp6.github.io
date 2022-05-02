@@ -18,11 +18,14 @@ Concentration in Computational Science and Engineering
 **B.Tech.**, Mechanical Engineering, Indian Institute of Technology (IIT) Gandhinagar, 2016 
 
 ## Research Experience
-**Graduate Research Assistant**;  &nbsp; Aug 2016 - present <br />
+**Graduate Research Assistant**, Ph.D. Thesis;  &nbsp; Aug 2018 - present <br />
 University of Illinois at Urbana-Champaign, Urbana, IL
 
 **Computer Science Research Institute (CSRI) Graduate Summer Intern**;  &nbsp; June 2019 - Aug 2019 <br />
 Sandia National Laboratories, Livermore, CA
+
+**Graduate Research Assistant**, M.S. Thesis;  &nbsp; Aug 2016 - 2018 <br />
+University of Illinois at Urbana-Champaign, Urbana, IL
 
 **Summer Undergraduate Research Fellow**;  &nbsp; May - July 2015 <br />
 California Institute of Technology, Pasadena, CA

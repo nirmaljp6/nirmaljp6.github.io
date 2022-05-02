@@ -39,7 +39,7 @@ Concentration: Computational Science and Engineering
 {\bf Indian Institute of Technology Gandhinagar}, Gujarat, India \hfill 2012 -- 2016\\
 B.Tech. (\textit{Honors}), Mechanical Engineering \hfill GPA: 9.24/10.0
 
-\section{\large Research Interests}
+\section{\large Interests}
 \begin{table}[h]
 \begin{tabular*}{\textwidth}[t]{ll}
 \textbullet \  Computational fluid dynamics & \textbullet \  Deep learning \\
@@ -48,56 +48,67 @@ B.Tech. (\textit{Honors}), Mechanical Engineering \hfill GPA: 9.24/10.0
 \end{tabular*}
 \end{table}
 
-\section{\large Research Experience}
+\section{\large Experience}
 {\bf Graduate Research Assistant} \hfill September 2018--present\\
-Ph.D. thesis adviser: Prof. Andres Goza, UIUC, Champaign, IL 
+Ph.D. thesis adviser: Prof. Andres Goza, UIUC, Champaign, IL  \\
+%
+{\textbullet\ Computational fluid dynamics (CFD) of an aeroelastic flap for passive flow control}
 \begin{itemize}
-	\item Developed a scalable and efficient numerical solver for simulating fluid-structure interaction problems using MPI and PETSC.
-	\item Numerically studied the utility of covert-feather-inspired passive flow control technique for enhancing aerodynamic performance.
-	\item Developed a state estimation approach where real-time sensor data was used to reconstruct the flow state using deep neural networks.
-	\item Currently designing a closed-loop feedback controller for covert-feather-inspired active flow control using reinforcement learning.
+	\item Computationally modeled the multi-physics flow over an airfoil mounted with a bio-inspired aeroelastic flap for improving aerodynamic performance.
+	\item Performed a multi-dimensional parametric study, k-means clustering and detailed data analysis to identify features that enhanced aerodynamic lift upto 27\%.
+	\item Collaborated with a research group at Princeton University to correlate CFD simulations with wind-tunnel experiments.
 \end{itemize}
 
-{\bf CSRI Summer Intern} \hfill June 2019 -- August 2019\\
+{\textbullet\  Machine learning for state estimation and active flow control}
+\begin{itemize}
+	\item Developed a nonlinear state estimation approach where real-time sensor data was used to accurately predict the full-flow state using deep neural networks.
+	\item Currently using deep reinforcement learning for designing a closed-loop controller for active flow control of an airfoil mounted with a controllable aeroelastic flap.
+	\item Utilized methodologies such as proximal policy optimization, principal component analysis and multi-layer perceptrons on Pytorch.
+\end{itemize}
+
+{\textbullet\  High performance computing and development of efficient algorithms}
+\begin{itemize}
+	\item Developed a scalable multi-physics (fluid-structure interaction) solver involving the Navier-Stokes and Newton's equations using PETSC and MPI. 
+	\item Developed an efficient algorithm that addressed a critical computational bottleneck related to the computation of a fluid-structure coupling matrix.
+	\item Achieved 4--10x increase in serial computational speed and $\sim$84\% parallel strong scaling efficiency.
+\end{itemize}
+
+{\bf Computer Science Research Institute Summer Intern} \hfill June--August 2019\\
 Adviser: Dr. Kevin Carlberg, Sandia National Laboratories, Livermore, CA \\
 %
-Guaranteeing convergence of ROMs on nonlinear manifold using transfer learning.
+Transfer learning for guaranteeing convergence of reduced-order models (ROM)
 \begin{itemize}
-\item Developed an adaptive manifold refinement strategy to enable convergence of ROMs on manifolds built using deep convolutional autoencoders on Tensorflow.
+\item Formulated an adaptive refinement strategy to enable convergence of nonlinear ROMs built using deep convolutional autoencoders on Tensorflow.
+\item Developed methodologies for efficiently retraining selected weights of the autoencoder and real-time augmentation of the latent space.
 %\vspace{-0.15cm}
 \end{itemize}
 
-{\bf Graduate Research Assistant} \hfill August 2016 -- August 2018\\
-M.S. thesis adviser: Prof. Maciej Balajewicz, UIUC, Champaign, IL \\
-Data-driven reduced-order modeling of advection-dominated fluid flows.
+{\bf Graduate Research Assistant} \hfill August 2016--August 2018\\
+M.S. thesis adviser: Dr. Maciej Balajewicz, UIUC, Champaign, IL \\
+Data-driven reduced-order modeling of fluid flows
 \begin{itemize}
-\item Developed a novel data-driven reduced order model for steady-state, advection-dominated fluid flows containing moving shocks.
-%\vspace{-0.15cm}
-%\item Demonstrated the computational efficiency of the proposed approach on several CFD problems. 
+	\item Identified a critical drawback of linear ROMs in accurately predicting fluid flows that are dominated by advection and strong discontinuities.
+	\item Developed a hyper-reduced, physics-based ROM where solutions are obtained by a nonlinear transformation of a linear subspace using collected flow data.
+	\item Achieved 300-10000x increase in computational speed while incurring only $\sim$1\% error when tested on several CFD problems. 
 \end{itemize}
 
 
 {\bf Summer Undergraduate Research Fellow} \hfill May--July 2015\\
-Adviser: Prof. Austin Minnich, California Institute of Technology, Pasadena, CA
+Adviser: Prof. Austin Minnich, California Institute of Technology, Pasadena, CA \\
+Waste heat scavenging using thermoelectric generators for aircraft applications
 \begin{itemize}
-	\item Designed and fabricated a prototype consisting of thermoelectric generators to
-	power wireless temperature sensors in aircraft.
+	\item Designed and fabricated a thermal-electrical prototype consisting of a thermoelectric generator, heat fin and electronics to generate electricity from waste heat. 
+	\item Powered a wireless temperature sensor from a temperature difference of $5^\circ$ K.
 \end{itemize}
 
 {\bf Summer Research Internship Program} \hfill   May 2014--April 2015\\
-Adviser: Prof. Vinod Narayanan, IIT Gandhinagar, India
+Adviser: Prof. Vinod Narayanan, IIT Gandhinagar, India \\
+Stability analysis of thermal boundary layers
 \begin{itemize}
-	\item Performed local stability analysis of axisymmetric thermal boundary layer in response to heating and cooling.
+	\item Performed local stability analysis to quantify the effect of heating on viscosity and the stability characteristics of axisymmetric thermal boundary layers.%in response to heating and cooling.
 \end{itemize}
 
 %\newpage
-
-\section{\large Skills}		 
-Programming: Python, Matlab, Fortran, C.\\
-Machine Learning: Pytorch, Tensorflow, Stable Baselines.\\
-High Performance Computing: PETSC, MPI, OpenMP.\\
-CFD and CAD: Ansys Fluent, Star CCM+, Autodesk Inventor.\\ 
-Miscellaneous: Latex, Git (Version Control), Simulink.
 
 \section{\large Publications}
  \begin{itemize}
@@ -128,6 +139,8 @@ Miscellaneous: Latex, Git (Version Control), Simulink.
  
 \end{itemize}
 
+
+\newpage
 \textbf{Contributed Talks} 
 \begin{itemize}
 
@@ -176,7 +189,7 @@ Conference Travel Grant, APS DFD \hfill 2019\vspace{0.1cm}\\
 SIAM Student Travel Award, SIAM CSE \hfill 2019\vspace{0.1cm}\\
 Conference Travel Award for Graduate Students, UIUC \hfill 2017\vspace{0.1cm}\\
 MSNDC Student Travel Grant, ASME IDETC \hfill 2017\vspace{0.1cm}\\
-Award for `Best Performance in the core subjects of Engineering Graphics, Manufacturing and Workshop Practice', IIT Gandhinagar \hfill 2016\vspace{0.1cm}\\
+Commencement award for `Best Performance in the core subjects of Engineering Graphics, Manufacturing and Workshop Practice', IIT Gandhinagar \hfill 2016\vspace{0.1cm}\\
 Summer Undergraduate Research Fellowship, Caltech \hfill 2015\vspace{0.1cm}\\
 Dean's List, IIT Gandhinagar \hfill 2013, 2014, 2015\vspace{0.1cm}\\
 Merit cum Means Scholarship, IIT Gandhinagar \hfill 2012, 2013, 2014\vspace{0.1cm}\\
@@ -187,9 +200,9 @@ Winner of Ricoh Printer Design Challenge, IIT Gandhinagar \hfill 2014
 
 \section{\large Selected Projects}
 
-{\bf Aeroacoustics of vortex shedding about a stalled airfoil}, UIUC \hfill Spring 2021
+{\bf Aeroacoustics of vortex shedding around a stalled airfoil}, UIUC \hfill Spring 2021
 \begin{itemize}
-\item Predicted noise due to vortex shedding about an airfoil by numerically solving the Ffowcs Williams-Hawkings equation using the Farassat Formulation 1A.
+\item Predicted noise due to vortex shedding around an airfoil by numerically solving the Ffowcs Williams-Hawkings equation using the Farassat Formulation 1A.
 \end{itemize}
 
 {\bf Nonlinear modal decomposition of transient fluid flows}, UIUC \hfill Spring 2020
@@ -197,16 +210,17 @@ Winner of Ricoh Printer Design Challenge, IIT Gandhinagar \hfill 2014
 \item Developed a nonlinear modal decomposition framework to identify meaningful flow structures in transient fluid flows using deep convolutional autoencoders.
 \end{itemize}
 
-{\bf Passive flow control using vortex generators}, UIUC \hfill Fall 2016
+{\bf Commercial software for computational fluid dynamics}
 \begin{itemize}
-\item Performed CFD simulations on Ansys Fluent to study passive flow control using vortex generators to delay shock induced flow separation on an Onera M6 wing.
+	\item Performed CFD simulations on Ansys Fluent to study passive flow control using vortex generators on an Onera M6 wing at UIUC in Fall 2016.
+	\item Simulated non-Newtonian blood flow in an artery using Star CCM+ to
+	study the effect of blockages on blood pressure at IIT Gandhinagar in Spring 2016.
 \end{itemize}
 
-%\section{\large Academic Services and Affiliations}		 
-%Reviewer, Journal of Computational Physics \hfill 2018--\vspace{0.1cm}\\
-%Reviewer, International Journal for Numerical Methods in Engineering \hfill 2018--\vspace{0.1cm}\\
-%Student Member, Society of Industrial and Applied Mathematicians (SIAM) \hfill 2018 --\vspace{0.1cm}\\
-%Student Member, American Physical Society (APS) \hfill 2017 --
+%{\bf Passive flow control using vortex generators}, UIUC \hfill Fall 2016
+%\begin{itemize}
+%\item Performed CFD simulations on Ansys Fluent to study passive flow control using vortex generators to delay shock induced flow separation on an Onera M6 wing.
+%\end{itemize}
 		 
 %\section{\large Teaching}
 %{\bf Teaching Assistant}, UIUC \hfill Fall 2019, Fall 2020 \\
@@ -229,36 +243,46 @@ Winner of Ricoh Printer Design Challenge, IIT Gandhinagar \hfill 2014
 %\item[2.] Volunteer: Volunteered in setting up and representing the booth of the Aerospace Engineering Department, UIUC at Airventure, Oshkosh 2018.
 %\end{itemize}
 
+\section{\large Skills}		 
+Programming: Python, MATLAB, Fortran, C.\\
+Machine Learning: Pytorch, Tensorflow, Stable Baselines.\\
+High Performance Computing: PETSC, MPI, OpenMP.\\
+CFD and CAD: Ansys Fluent, Star CCM+, Autodesk Inventor.\\ 
+Miscellaneous: Git (Version Control), Simulink, Latex.
+
 \section{\large Leadership}
 {\bf Coordinator}, Upward Bound, UIUC \hfill June--July 2021
 \begin{itemize}
 	\item Designed and co-organized a two-day glider building workshop for high school students from underrepresented and minority groups.
+	\item Facilitated the procurement of supplies required for the activity and led one of the online Zoom sessions to guide the students through the workshop.
 \end{itemize}
 
 {\bf Teaching Assistant}, UIUC \hfill Fall 2019, 2020
 \begin{itemize}
-	\item Led regular office hours and exam revision sessions to aid the students in the AE433: Aerospace Propulsion course.
-	\item Listed in ``List of Teachers Ranked as Excellent for Fall 2019'' at UIUC.
+	\item Led regular office hours, exam revision sessions and created tutorial problems to aid the students in the AE433: Aerospace Propulsion course.
+	\item Listed in the ``List of Teachers Ranked as Excellent for Fall 2019'' at UIUC.
 \end{itemize}
 
 
-{\bf Mentor}, Summer Undergraduate Research, UIUC \hfill Summer 2017 
+{\bf Mentorship}, UIUC
 \begin{itemize}
-	\item Mentored and supervised an undergraduate student on their research project on numerical modeling and CFD.
-\end{itemize}
-
-
-{\bf College Soccer Player}, IIT Gandhinagar \hfill 2013--2015
-\begin{itemize}
-	\item Member of the IIT Gandhinagar soccer team and participated at two annual Inter-IIT tournaments.
+	\item As a senior graduate student, mentored newly admitted graduate students on the software architecture of our group.
+	\item Mentored and supervised an undergraduate student on their research project on numerical modeling and CFD in summer 2017.
 \end{itemize}
 
 {\bf Events Coordinator}, Amalthea' 13, IIT Gandhinagar \hfill May--October 2013
 \begin{itemize}
 	\item Led a team of 21 students to plan and organize various technical events at Amalthea'13, the annual technical summit of IIT Gandhinagar.
+	%\item Managed 7 sub-teams that organized various competitions encompassing robotics, chemistry and quiz. 
 \end{itemize}
 
-{\bf Undergraduate Teaching Assistant}, IIT Gandhinagar \hfill Fall 2013
+{\bf College Soccer Player}, IIT Gandhinagar \hfill 2013--2015
+\begin{itemize}
+	\item Member of the IIT Gandhinagar soccer team and participated at two annual Inter-IIT tournaments.
+	\item Captain of one of the five teams in an intra-college soccer league.
+\end{itemize}
+
+{\bf Undergraduate Lead Teaching Assistant}, IIT Gandhinagar \hfill Fall 2013
 \begin{itemize}
 	\item Designed and led the lab sessions on using Autodesk Inventor in the Engineering Graphics course for freshman students.
 \end{itemize}
