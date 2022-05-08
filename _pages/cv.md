@@ -5,7 +5,7 @@ permalink: /cv/
 classes: wide
 ---
 
-[Download PDF Version](/assets/images/CV_Nirmal.pdf){: .btn .btn--info} (updated 04/28/2022)
+[Download 4-page CV](/assets/images/CV_Nirmal.pdf){: .btn .btn--info} (updated 05/01/2022)
 {% include feature_row %}
 # Summary
 ## Education
@@ -17,20 +17,20 @@ Concentration in Computational Science and Engineering
 
 **B.Tech.**, Mechanical Engineering, Indian Institute of Technology (IIT) Gandhinagar, 2016 
 
-## Research Experience
-**Graduate Research Assistant**, Ph.D. Thesis;  &nbsp; Aug 2018 - present <br />
+## Experience
+**Graduate Research Assistant**, Ph.D. Thesis;  &nbsp; Aug 2018--Dec 2022 (exp) <br />
 University of Illinois at Urbana-Champaign, Urbana, IL
 
-**Computer Science Research Institute (CSRI) Graduate Summer Intern**;  &nbsp; June 2019 - Aug 2019 <br />
+**Computer Science Research Institute (CSRI) Graduate Summer Intern**;  &nbsp; June 2019--Aug 2019 <br />
 Sandia National Laboratories, Livermore, CA
 
-**Graduate Research Assistant**, M.S. Thesis;  &nbsp; Aug 2016 - 2018 <br />
+**Graduate Research Assistant**, M.S. Thesis;  &nbsp; Aug 2016--2018 <br />
 University of Illinois at Urbana-Champaign, Urbana, IL
 
-**Summer Undergraduate Research Fellow**;  &nbsp; May - July 2015 <br />
+**Summer Undergraduate Research Fellow**;  &nbsp; May--July 2015 <br />
 California Institute of Technology, Pasadena, CA
 
-**Summer Research Internship Program**;  &nbsp; May 2014 - April 2015 <br />
+**Summer Research Internship Program**;  &nbsp; May 2014--April 2015 <br />
 Indian Institute of Technology Gandhinagar, India
 
 
@@ -53,5 +53,5 @@ Indian Institute of Technology Gandhinagar, India
 **Machine Learning**: Pytorch, Tensorflow, Stable Baselines <br />
 **High performance computing**: PETSC, MPI, OpenMP. <br />
 **CFD and CAD**: Ansys Fluent, Star CCM+, Autodesk Inventor. <br />
-**Miscellaneous**: Latex, Git (Version Control), Simulink.
+**Miscellaneous**: Git (Version Control), Simulink, Latex.
 
