@@ -7,7 +7,7 @@ classes: wide
 
 ## Publications
 
-  1.   {: style="text-align: justify;"}**N.J. Nair** and A. Goza. Fluid-structure interaction of a bio-inspired passively deployable flap for lift enhancement. _arXiv preprint_, arXiv:2203.00037, 2022. Under review at _Physical Review Fluids_. [[arxiv link]](https://arxiv.org/pdf/2203.00037.pdf)
+  1.   {: style="text-align: justify;"}**N.J. Nair** and A. Goza. Fluid-structure interaction of a bio-inspired passively deployable flap for lift enhancement. _Physical Review Fluids_ (accepted). [[arxiv link]](https://arxiv.org/pdf/2203.00037.pdf)
 
   1.   {: style="text-align: justify;"}**N.J. Nair** and A. Goza. A strongly coupled immersed boundary method for fluid-structure interaction that mimics the efficiency of stationary body methods. _Journal of Computational Physics_, 110897, 2022. [[link]](https://www.sciencedirect.com/science/article/pii/S0021999121007920) [[arxiv link]](https://arxiv.org/pdf/2103.06415.pdf)
 
@@ -28,9 +28,9 @@ classes: wide
 
 ### Invited
 
-  5.   {: style="text-align: justify;"}**N.J. Nair** and A. Goza. Active flow control of a covert-inspired deployable flap strategy using reinforcement learning. _USNC/TAM_, 2022. (Accepted).
+  5.   {: style="text-align: justify;"}**N.J. Nair** and A. Goza. Active flow control of a covert-inspired deployable flap strategy using reinforcement learning. _USNC/TAM_, 2022 (accepted).
 
-  5.   {: style="text-align: justify;"}A. Goza and **N.J. Nair**. Effects of flap-vortex interactions on the lift of an airfoil mounted with a passively deployable flap. _DisCoVor, EPFL_, 2022. (Accepted).
+  5.   {: style="text-align: justify;"}A. Goza and **N.J. Nair**. Effects of flap-vortex interactions on the lift of an airfoil mounted with a passively deployable flap. _DisCoVor, EPFL_, 2022.
 
   1.   {: style="text-align: justify;"}**N.J. Nair** and M. Balajewicz. Transported snapshot model order reduction approach for parametric, steady-state fluid flows containing parameter dependent shocks. _Invited talk in a mini-symposium at SIAM      Conference on Computational Science and Engineering_, 2019. [[link]](https://meetings.siam.org/sess/dsp_talk.cfm?p=95087)
   

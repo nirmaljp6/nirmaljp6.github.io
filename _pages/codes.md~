@@ -4,16 +4,15 @@ title: "Codes"
 permalink: /codes/
 ---
 
-### Parallel immersed boundary code with added capability of efficient fluid-structure coupling
-based on [Nair and Goza, 2021](https://arxiv.org/pdf/2103.06415.pdf).
-<br />
-[Github](https://github-dev.cs.illinois.edu/NUFgroup/IB_parallel){: .btn .btn--info}
-
 ### Deep state estimation (DSE)
 based on [Nair and Goza, 2020](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/leveraging-reducedorder-models-for-state-estimation-using-deep-learning/FF16E164C1FEA5099BF45CE62A7B5101).
 <br />
 [Github](https://github.com/nirmaljp6/DSE){: .btn .btn--info}
 
+### Parallel immersed boundary code with added capability of efficient fluid-structure coupling
+based on [Nair and Goza, 2021](https://arxiv.org/pdf/2103.06415.pdf).
+<br />
+[Github](https://github-dev.cs.illinois.edu/NUFgroup/IB_parallel){: .btn .btn--info}
 
 ### Transported snapshot model order reduction (TSMOR)
 based on [Nair and Balajewicz, 2019](https://onlinelibrary.wiley.com/doi/full/10.1002/nme.5998).
